@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_dashboard"
+        android:name="kg.geeks.taskapp5.ui.fragment.dashboard.DashboardFragment"
+        android:label="@string/dashboard"
+        tools:layout="@layout/fragment_dashboard" />
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="kg.geeks.taskapp5.ui.fragment.home.HomeFragment"
+        android:label="@string/home"
+        tools:layout="@layout/fragment_home" />
+    <fragment
+        android:id="@+id/navigation_notifications"
+        android:name="kg.geeks.taskapp5.ui.fragment.notifications.NotificationsFragment"
+        android:label="@string/notifications"
+        tools:layout="@layout/fragment_notifications" />
+    <fragment
+        android:id="@+id/onBoardFragment"
+        android:name="kg.geeks.taskapp5.ui.fragment.onboard.OnBoardFragment"
+        android:label="On Boarding"
+        tools:layout="@layout/fragment_on_board" />
+    <fragment
+        android:id="@+id/navigation_profile"
+        android:name="kg.geeks.taskapp5.ui.fragment.profile.ProfileFragment"
+        android:label="@string/profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/taskFragment"
+        android:name="kg.geeks.taskapp5.ui.fragment.task.TaskFragment"
+        android:label="@string/task"
+        tools:layout="@layout/fragment_task" />
+</navigation>

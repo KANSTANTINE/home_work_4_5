@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">TaskApp5</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="profile">Profile</string>
+    <string name="task">Task</string>
+    <string name="notifications">Notifications</string>
+    <string name="home">Home</string>
+    <string name="dashboard">Dashboard</string>
+    <string name="title">Title:</string>
+    <string name="description">Description:</string>
+    <string name="name">Name</string>
+</resources>
